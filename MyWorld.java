@@ -138,6 +138,17 @@ public class MyWorld extends World
         snake.setLocation(759,392);
         snake.setLocation(759,392);
         snake.setLocation(759,392);
+        removeObject(pig5);
+        removeObject(pig18);
+        removeObject(pig13);
+        removeObject(pig14);
+        removeObject(pig10);
+        removeObject(pig20);
+        removeObject(pig8);
+        Pig pig21 = new Pig();
+        addObject(pig21,325,647);
+        Pig pig22 = new Pig();
+        addObject(pig22,722,680);
     }
     
     /**
